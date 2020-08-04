@@ -1,21 +1,41 @@
-# -*- coding: utf-8 -*-
-# @Time : 8/4/2020 2:28 PM
-# @Author : Peter yang
+# def run():
+#     pass
 
-
-def run():
-    pass
-
-
+# 经典类
+# 新式类
+# 定义一个类
 class Money:
-    pass
+    def eat(self):
+        print("eat")
 
 
-## 打印类名
-print(Money.__name__)
-xxx = Money
-print(xxx.__name__)
-print(Money)
-## 产生对象
+# print(Money.__name__)
+# xxx = Money
+# print(xxx.__name__)
+# Money = 666
+# print(Money)
+# print(id(Money))
+# print(Money)
+# # 根据这个类， 创建（实例化）一个对象
 one = Money()
+# # print(one)
+# print(one)
 print(one.__class__)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
