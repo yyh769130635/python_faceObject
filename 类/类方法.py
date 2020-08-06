@@ -8,15 +8,20 @@ class Person:
 
 
 Person.leifangfa(123)
+# p = Person()
+# p.leifangfa(666)
+#
+#
+# func = Person.leifangfa
+# func(111)
+#
+# # 装饰器的作用: 在保证原本函数不改变的前提下, 直接给这个函数增加一些功能
+# class A(Person):
+#     pass
+# A.leifangfa(0)
 
-p = Person()
-p.leifangfa(666)
-
-
-func = Person.leifangfa
-func(111)
-
-# 装饰器的作用: 在保证原本函数不改变的前提下, 直接给这个函数增加一些功能
-class A(Person):
-    pass
-A.leifangfa(0)
+class yyh:
+    def d(self):
+        print(self)
+temp = yyh()
+temp.d
