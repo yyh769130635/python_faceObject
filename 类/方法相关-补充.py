@@ -638,24 +638,24 @@
 #         print("登录验证")
 #         func()
 #     return inner
-class check:
-    def __init__(self, func):
-        self.f = func
-
-    def __call__(self, *args, **kwargs):
-        print("登录验证")
-        self.f()
-
-@check
-def fashuoshuo():
-    print("发说说")
+# class check:
+#     def __init__(self, func):
+#         self.f = func
+#
+#     def __call__(self, *args, **kwargs):
+#         print("登录验证")
+#         self.f()
+#
+# @check
+# def fashuoshuo():
+#     print("发说说")
 # fashuoshuo = check(fashuoshuo)
 
-fashuoshuo()
-
-x = "abc"
-y = [x]
-z = [x, y]
-import objgraph
-# objgraph.show_refs(y, filename='test.png')
-objgraph.show_refs(z, filename="test.png")
+# fashuoshuo()
+#
+# x = "abc"
+# y = [x]
+# z = [x, y]
+# import objgraph
+# # objgraph.show_refs(y, filename='test.png')
+# objgraph.show_refs(z, filename="test.png")

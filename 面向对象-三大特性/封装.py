@@ -1,5 +1,5 @@
 # _*_ encoding:utf-8 _*_
-# import win32com.client
+import win32com.client
 #
 #
 class Caculator(object):
